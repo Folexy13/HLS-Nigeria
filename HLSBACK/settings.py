@@ -259,6 +259,8 @@ LOGIN_REDIRECT_URL = 'home:home'
 
 LOGIN_URL = 'user:login'
 
+ALLOWED_HOSTS = [".vercel.app"]
+
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'  # SMTP server for Gmail
